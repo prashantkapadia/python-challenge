@@ -1,7 +1,7 @@
 import os
 import csv
 
-electionpath = os.path.join('..','Resources','election_data.csv')
+electionpath = os.path.join('..','PyPoll','Resources','election_data.csv')
 
 with open(electionpath, 'r') as csvfile:
 
